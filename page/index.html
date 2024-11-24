@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherpur Polytechnic Institute</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="resp.css">
+</head>
+<body>
+    <section class="hero">
+        <!-- Navbar Section -->
+        <section class="navmain">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="logo">
+                        <h1>Sherpur Polytechnic Institute</h1>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="../index.html">Students Data</a></li>
+                        <li><a href="./index.html">Teacher Data</a></li>
+                        <li class="drop"><a href="#technology">Technology</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Computer</a></li>
+                                <li><a href="#">Civil</a></li>
+                                <li><a href="#">Electronics</a></li>
+                                <li><a href="#">Electrical</a></li>
+                            </ul>
+                        </li>
+                         <li><a href="../about.html">About Institute</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Image Slider Section -->
+        <div class="container">
+            <section class="slider">
+                <div class="slide fade">
+                    <img src="slideimg/img1.jpg" alt="Image 1">
+                </div>
+                <div class="slide fade">
+                    <img src="slideimg/img2.jpg" alt="Image 2">
+                </div>
+                <div class="slide fade">
+                    <img src="slideimg/img3.jpg" alt="Image 3">
+                </div>
+                <div class="slide fade">
+                    <img src="slideimg/img4.jpg" alt="Image 4">
+                </div>
+                <div class="slide fade">
+                    <img src="slideimg/img5.jpg" alt="Image 5">
+                </div>
+            </section>
+        </div>
+
+        <!-- Teacher Data Section -->
+        <section class="banner" id="teacher-data">
+            <div class="container">
+                <h2 class="bigh">Teacher Data</h2>
+
+                <!-- Search Input -->
+                <section id="search-teacher">
+                    <input type="text" id="teacherSearchInput" placeholder="Search by name or subject">
+                </section>
+
+                <!-- Teacher List -->
+                <section id="teacherList"></section>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="footer-container">
+                <p>&copy; 2024 Sherpur Polytechnic Institute. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank">Facebook</a> | 
+                    <a href="#" target="_blank">Twitter</a> | 
+                    <a href="#" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

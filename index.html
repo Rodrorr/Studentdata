@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherpur Polytechnic Institute - Student Database</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="resp.css">
+</head>
+<body>
+    <section class="hero">
+        <!-- Navbar Section -->
+        <section class="navmain">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="logo">
+                        <h1>Sherpur Polytechnic Institute</h1>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+						<li><a href="./index.html">Student Data</a></li>
+                        <li><a href="./page/index.html">Teacher Data</a></li>
+                        <li class="drop"><a href="#diploma-subject">Technology</a>
+                          <ul class="dropdown">
+                            <li><a href="">Computer</a></li>
+                            <li><a href="">Civil</a></li>
+                            <li><a href="">Electronics</a></li>
+                            <li><a href="">Electric</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="./about.html">About Institute</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        
+        <!-- Image Slider Section -->
+        <div class="container">
+            <section class="slider">
+                <div class="slide fade">
+                    <img src="slideimg/img1.jpg" alt="Image 1">
+                </div>
+                <div class="slide fade">
+                    <img src="slideimg/img2.jpg" alt="Image 2">
+                </div>
+                <div class="slide fade">
+                    <img src="slideimg/img3.jpg" alt="Image 3">
+                </div>
+                <div class="slide fade">
+                    <img src="slideimg/img4.jpg" alt="Image 4">
+                </div>
+                <div class="slide fade">
+                    <img src="slideimg/img5.jpg" alt="Image 5">
+                </div>
+            </section>
+        </div>
+
+        <section class="banner">
+            <div class="container">
+              <h2 class="bigh">Computer Department Student</h2>
+                <section id="search-filter">
+                    <input type="text" id="searchInput" placeholder="Search by name or roll number">
+                    <select id="shiftFilter">
+                        <option value="">All Shifts</option>
+                        <option value="1st">1st Shift</option>
+                        <option value="2nd">2nd Shift</option>
+                    </select>
+                </section>
+                
+                <section id="studentList"></section>
+            </div>
+        </section>
+		<section id="infoCards" class="info-cards">
+    <div class="card">
+        <h3>About Computer Subject</h3>
+        <p>
+            The Computer subject equips students with essential knowledge in programming, web development, database systems, and computer networks. It fosters problem-solving skills, preparing students for the dynamic tech industry.
+        </p>
+        <p>
+            Key topics include coding languages like Python, Java, and C++, as well as fundamentals of AI, cybersecurity, and cloud computing.
+        </p>
+    </div>
+    <div class="card">
+        <h3>About Diploma Program</h3>
+        <p>
+            The Diploma program is designed to combine theoretical learning with practical experience, offering specializations in various engineering and technology fields.
+        </p>
+        <p>
+            It emphasizes hands-on training in labs and workshops, with opportunities for internships in reputed industries. Graduates are equipped with both technical and professional skills to excel in their careers.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Career Opportunities</h3>
+        <p>
+            Students graduating from the Computer Department can pursue careers in software engineering, IT support, web development, data analysis, and networking.
+        </p>
+        <p>
+            Additionally, the diploma serves as a foundation for advanced studies in Computer Science or specialized certifications in cutting-edge technologies.
+        </p>
+    </div>
+	</section>
+        <footer class="footer">
+            <div class="footer-container">
+                <p>&copy; 2024 Sherpur Polytechnic Institute. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank">Facebook</a> | 
+                    <a href="#" target="_blank">Twitter</a> | 
+                    <a href="#" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

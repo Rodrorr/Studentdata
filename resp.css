@@ -1,0 +1,53 @@
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    display: block; /* Always display navigation links vertically on small screens */
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  /* Slider Adjustments */
+  .slider {
+    max-width: 100%;
+    margin: 10px;
+  }
+
+  .slider img {
+    height: auto;
+  }
+
+  /* Search and Filter Adjustments */
+  #search-filter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #search-filter input,
+  #search-filter select {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  /* Student List Adjustments */
+  #studentList {
+    grid-template-columns: 1fr; /* Display one card per row on small screens */
+  }
+
+  .bigh {
+    font-size: 30px;
+  }
+
+  /* Footer Adjustments */
+  .footer-container {
+    padding: 15px;
+  }
+}
